@@ -17,8 +17,8 @@ Instead, please use the manual installation below.
 
 ### Manual
 
-1. [Download the .zip](https://github.com/bahit/brogrammer-theme/archive/master.zip)
-2. Unzip and rename the folder to `Theme - BrogrammerST3`
+1. [Download the .zip](https://github.com/bahit/abgrammer-theme/archive/master.zip)
+2. Unzip and rename the folder to `Theme - Abgrammer`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text
 
 ### Using Git
