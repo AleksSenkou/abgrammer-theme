@@ -690,7 +690,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Brogrammer/Brogrammer/folder-closed3.png"
+        "layer0.texture": "Theme - Brogrammer/Brogrammer/folder-closed-selected3.png"
     },
     {
         "class": "icon_folder",
@@ -725,7 +725,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-        "layer0.texture": "Theme - Brogrammer/Brogrammer/folder-open3.png"
+        "layer0.texture": "Theme - Brogrammer/Brogrammer/folder-open-selected3.png"
     },
     {
         "class": "icon_folder",
