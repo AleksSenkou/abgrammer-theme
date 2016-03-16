@@ -213,6 +213,23 @@
     },
 
 //
+// FOLD ICON
+//
+
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
+
+//
 // FOLD BUTTONS
 //
 
@@ -237,7 +254,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded","hover"],
-        "layer0.opacity": 0.5    
+        "layer0.opacity": 0.5
     },
 
 //
@@ -468,14 +485,14 @@
         "layer0.opacity": 1,
         "layer0.tint": [34,34,34],
         "layer0.inner_margin": [1,5,2,1],
-        "content_margin": [11,9,0,0]
+        "content_margin": [0,0,0,0]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
         "row_padding": [6,6],
         "indent":10,
-        "indent_offset": 15,
+        "indent_offset": 8,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -504,7 +521,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["abgrammer_sidebar_tree_xsmall"],
-        "row_padding": [8, 0]
+        "row_padding": [4, 0]
     },
     {
         "class": "sidebar_tree",
@@ -647,11 +664,11 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [9,9],
+        "content_margin": [10,5],
         "layer0.texture": "Theme - Abgrammer/Abgrammer/folder-closed@2x.png",
         "layer0.tint": [170,170,170],
         "layer0.opacity": 1,
-        "layer0.inner_margin": [2,2]
+        "layer0.inner_margin": [-20,-20]
     },
     {
         "class": "disclosure_button_control",
