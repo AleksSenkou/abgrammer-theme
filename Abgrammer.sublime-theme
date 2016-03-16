@@ -13,7 +13,7 @@
         "tab_overlap": 0,
         "tab_width": 140,
         "tab_min_width": 50,
-        "tab_height": 50,
+        "tab_height": 30,
         "mouse_wheel_switch": false
     },
     // Tab element
@@ -26,14 +26,14 @@
         "layer0.tint": [51,51,51],
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 0.7,
-        "layer1.texture": "Theme - Abgrammer/Abgrammer/tab-bar@2x.png",
+        "layer1.texture": "Theme - Abgrammer/Abgrammer/tab-bar@2.png",
         "layer1.opacity": 1
     },
     // Tab close state
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [10,0]
+        "content_margin": [5,0,0,0]
     },
     // Tab hover state
     {
@@ -49,7 +49,7 @@
         "layer0.texture": "",
         "layer0.tint": [51,51,51],
         "layer0.opacity": 1,
-        "layer1.texture": "Theme - Abgrammer/Abgrammer/tab-bar-active@2x.png",
+        "layer1.texture": "Theme - Abgrammer/Abgrammer/tab-bar-active@2.png",
         "layer1.opacity": 1
     },
     // Tab dirty state (close button hidden)
@@ -66,26 +66,8 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - Abgrammer/Abgrammer/close@2x.png",
-        "layer0.opacity": 0,
-        "layer0.tint": [170,170,170]
-    },
-    {
-        "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8,8]
-    },
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "layer0.opacity": 1,
-        "layer0.tint": [231,76,60]
-
-    },
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "layer0.opacity": 1
     },
     // Tab dirty button
     {
@@ -611,7 +593,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Abgrammer/Abgrammer/circle@2x.png",
+        "layer0.texture": "Theme - Abgrammer/Abgrammer/circle.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [231,76,60],
@@ -627,7 +609,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Abgrammer/Abgrammer/circle@2x.png",
+        "layer0.texture": "Theme - Abgrammer/Abgrammer/circle.png",
         "layer0.opacity": 1,
         "layer0.tint": [231,76,60]
     },
